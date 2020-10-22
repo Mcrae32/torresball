@@ -1348,12 +1348,28 @@ label {
 
 .widget-collapsible .widget-title a i {
     color: #323232;
-    display: inline-block;
+    display: none;
     right: -0.1rem;
     margin-top: -.7rem;
     z-index: 0;
     width: 1rem;
+    height: 1rem;
 }
+
+.widget-collapsible .widget-title a.collapsed i:first-child {
+    display: inline-block;
+}
+.widget-collapsible .widget-title a.collapsed i:last-child {
+    display: none;
+}
+
+.widget-collapsible .widget-title a i:last-child {
+    display: inline-block;
+}
+.widget-collapsible .widget-title a i:first-child {
+    display: none;
+}
+*/
 
 .custom-control-label {
     position: relative;

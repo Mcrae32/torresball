@@ -123,7 +123,7 @@ $(document).ready(function () {
                 breakpoint: 767,
                 settings: {
                     arrows: true,
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 }
             },
             {
@@ -197,6 +197,14 @@ $(document).ready(function () {
     	$('.sidebar-shop').find('input').prop('checked', false);
 
     	e.preventDefault();
+    });
+
+    //fancybox
+    $("a.product-gallery-item").fancybox({
+        'titlePosition'		: 'outside',
+        'overlayColor'		: '#000',
+        'overlayOpacity'	: 0.5,
+        'loop'              : true
     });
 
 });

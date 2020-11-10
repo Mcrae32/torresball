@@ -64,6 +64,23 @@ $(document).ready(function () {
     }
     checkWidth()
 
+    //slider
+    $('.slider-wrapper').slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        arrows: true
+    });
+
+    $('#sport').slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        arrows: true
+    });
+
     //slider parthners
     $('.slider-brands').slick({
         dots: false,

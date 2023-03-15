@@ -24,8 +24,10 @@
     --padding_wrap_text_sale-card: 18px;
     --padding_card_img_sale-card: 22px;
     --font-size_h3_tittle: 28px;
-    --margin-bottom_h3_tittle: 32px;
-    --margin-bottom_section: 65px;
+    --margin-bottom_h3_tittle: 20px;
+    /* --margin-bottom_h3_tittle: 32px; */
+    /* --margin-bottom_section: 65px; */
+    --margin-bottom_section: 35px;
     --gap_sale-card: 16px;
     --transition-all: all 0.3s ease;
     --box-shadow_cards: 0px 2px 12px rgba(0, 0, 0, 0.25);
@@ -450,7 +452,8 @@ footer.footer .row:last-child .col p {
     width: 18px;
     height: 18px;
     z-index: 2;
-    top: -9%;
+    /* top: -9%; */
+    top: -6%;
 }
 
 #news-block-slider .slick-next,
@@ -470,7 +473,7 @@ footer.footer .row:last-child .col p {
 #leaders-of-sells-block-slider .sale-card:hover,
 #leaders-of-sells-block-slider .sale-card:focus,
 #recommend-block-slider .sale-card:hover,
-#recommend-block-slider .sale-card:focus  {
+#recommend-block-slider .sale-card:focus {
     box-shadow: var(--box-shadow_cards_2);
 }
 
@@ -524,17 +527,20 @@ section.bottom-menu {
 
 #recommend-block-slider .slick-track,
 #leaders-of-sells-block-slider .slick-track {
-  display:flex;
+    display: flex;
 }
-a.slick-slide{
-  height:auto;
-  flex:0 0 auto;
+
+a.slick-slide {
+    height: auto;
+    flex: 0 0 auto;
 }
-a.slick-slide > div {
-  height:100%;
+
+a.slick-slide>div {
+    height: 100%;
 }
 
 @media (max-width: 1399px) {
+
     #news-block-slider .slick-prev,
     #leaders-of-sells-block-slider .slick-prev,
     #recommend-block-slider .slick-prev {
@@ -547,7 +553,8 @@ a.slick-slide > div {
     #leaders-of-sells-block-slider .slick-prev,
     #recommend-block-slider .slick-next,
     #recommend-block-slider .slick-prev {
-        top: -40px;
+        /* top: -40px; */
+        top: -26px;
     }
 }
 
@@ -566,8 +573,10 @@ a.slick-slide > div {
         --padding_wrap_text_sale-card: 14px;
         --font_size_sale-card: 14px;
         --font-size_h3_tittle: 22px;
-        --margin-bottom_h3_tittle: 28px;
-        --margin-bottom_section: 45px;
+        /* --margin-bottom_h3_tittle: 28px; */
+        --margin-bottom_h3_tittle: 16px;
+        /* --margin-bottom_section: 45px; */
+        --margin-bottom_section: 26px;
         --gap_sale-card: 8px;
     }
 
@@ -612,6 +621,7 @@ a.slick-slide > div {
 }
 
 @media (max-width: 767px) {
+
     #news-block-slider .slick-prev,
     #leaders-of-sells-block-slider .slick-prev,
     #recommend-block-slider .slick-prev {
